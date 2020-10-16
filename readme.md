@@ -19,3 +19,6 @@
 
  ## debug
     use jlink and gdb to debug it. the directory of script are scripts to use gdb 
+    1.modify JlinkDevices.xml to add support for F003.
+    2.create MindMotion directory in Devices directory.add MM32F003 directory in MindMotion directory. 
+    3.copy the MM32F003_16.FLM from keil support pack for mm32F003 to the MM32F003 directory
