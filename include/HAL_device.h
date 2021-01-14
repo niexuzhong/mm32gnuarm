@@ -25,8 +25,11 @@
 #include "MM32F003_q.h"
 #include "system_MM32F003_q.h"
 
+#elif defined(MM32F031_q)
+    #include "MM32F031x4x6_q.h"
+    #include "system_MM32F031x4x6_q.h"
 #else
-#error "HAL_device.h: PART NUMBER undefined"
+    #error "HAL_device.h: PART NUMBER undefined"
 #endif
 #endif /* __HAL_device_H */
 /*-------------------------(C) COPYRIGHT 2018 MindMotion ----------------------*/
