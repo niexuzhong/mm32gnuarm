@@ -29,3 +29,5 @@
     3.add the file in your projects in CMakeLists.txt.
     4.modify the MCU option in CMakeLists.txt
     5.use Jlink to burn the flash
+## add support for MM32F031 and compile script
+    modify the compile.sh as your requirment.There are two parameter shoudl be modified: MCU_TYPE and cross compile path .then run it
